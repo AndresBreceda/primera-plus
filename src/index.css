@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+
+:root {
+  --verde-primera: 53 130 43;
+  --rojo-primera1: 220 41 30;
+  --gris-primera: 141 141 141;
+  --negro-primera: 35 35 35;
+}
+
+html,
+#root {
+  height: 100%;
+}
+
+body {
+  background-color: rgb(var(--verde-primera));
+}
