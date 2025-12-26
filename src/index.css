@@ -14,5 +14,10 @@ html,
 }
 
 body {
-  background-color: rgb(var(--verde-primera));
+  background-color: rgb(var(--gris-primera));
+  background-image: radial-gradient(
+    #cfcfcf 1px,
+    transparent 1px
+  );
+  background-size: 16px 16px;
 }
