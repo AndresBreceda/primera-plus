@@ -1,6 +1,9 @@
 import QuestionMarkIcon from '@mui/icons-material/QuestionMark';
+import { useNavigate } from "react-router-dom";
 
 export default function Footer(){
+    const navigate = useNavigate();
+    
     return(
         <footer className="flex items-center justify-between px-6 py-4">
             <div>
@@ -8,7 +11,7 @@ export default function Footer(){
             </div>
 
             <div>
-               <QuestionMarkIcon sx={{ fontSize: 32 }} className='cursor-pointer hover:text-gray-600 transition'></QuestionMarkIcon> 
+               <QuestionMarkIcon onClick={() => navigate("/Acerca")} sx={{ fontSize: 32 }} className='cursor-pointer hover:text-gray-600 transition'></QuestionMarkIcon> 
             </div>
         </footer>
     );
