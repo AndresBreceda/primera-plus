@@ -127,7 +127,7 @@ export default function Header({ showBack = false }) {
           max="100"
           value={volume}
           onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
-            setBrightness(Number(e.target.value))
+            setVolume(Number(e.target.value))
           }
           className="w-40"
         />
