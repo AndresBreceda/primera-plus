@@ -52,6 +52,7 @@ export default function Header({ showBack = false }) {
       {/* Íconos derecha */}
       <div className="flex gap-6 items-center">
         <SettingsBluetoothIcon
+          onClick={() => navigate("/Bluetooth")}
           sx={{ fontSize: 32 }}
           className="cursor-pointer hover:text-gray-600 transition"
         />

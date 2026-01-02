@@ -6,6 +6,7 @@ import { Videojuegos } from './Pages/Videojuegos';
 import { Series } from './Pages/Series';
 import { Musica } from './Pages/Musica';
 import { Acerca } from './Acerca';
+import {Bluetooth} from './Bluetooth';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       <Route path="/series" element={<Series />} />
       <Route path="/musica" element={<Musica />} />
       <Route path="/acerca" element={<Acerca />} />
+      <Route path="/bluetooth" element={<Bluetooth />} />
+
 
       
       <Route path="*" element={<Home />} />

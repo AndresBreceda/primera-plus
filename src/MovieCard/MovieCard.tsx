@@ -23,7 +23,7 @@ export function MovieCard({
 
   return (
     <div
-      className="relative cursor-pointer group flex gap-6 p-4 border-4 border-black 
+      className="relative cursor-pointer group flex gap-6 p-4
                  rounded-xl max-w-md bg-white h-55
                  transition-all duration-300"
     >
@@ -51,7 +51,7 @@ export function MovieCard({
       {/* Contenido */}
       <div className="relative z-0 flex gap-6 w-full">
         {/* Poster */}
-        <div className="w-32 h-44 border-4 border-black rounded-md overflow-hidden shrink-0">
+        <div className="w-32 h-44 border-2 border-black rounded-md overflow-hidden shrink-0">
           {posterUrl ? (
             <img
               src={posterUrl}
