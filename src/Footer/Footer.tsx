@@ -7,7 +7,7 @@ export default function Footer(){
     return(
         <footer className="flex items-center justify-between px-6 py-4">
             <div>
-                <img src="./primera-plus-logo-largo.png" alt='logo largo Primera plus' className='w-48'></img>
+                <img onClick={() => navigate("/Home")} src="./primera-plus-logo-largo.png" alt='logo largo Primera plus' className='w-48 cursor-pointer'></img>
             </div>
 
             <div>

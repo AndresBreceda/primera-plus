@@ -21,7 +21,7 @@ export default function Home() {
           {/* Imagen de fondo */}
           <div
             className="absolute inset-0 bg-cover bg-center"
-            style={{ backgroundImage: "url('/peliculas.png')" }}
+            style={{ backgroundImage: "url('/pages-cover/peliculas.png')" }}
           />
 
           {/* SHUTTER - lado izquierdo */}
@@ -63,7 +63,7 @@ export default function Home() {
           >
             <div
               className="absolute inset-0 bg-cover bg-center"
-              style={{ backgroundImage: "url('/series.png')" }}
+              style={{ backgroundImage: "url('/pages-cover/series.png')" }}
             />
             <div className="absolute inset-y-0 left-0 w-1/2 bg-red-600/70 origin-left group-hover:scale-x-0 transition-transform duration-500 ease-in-out" />
             <div className="absolute inset-y-0 right-0 w-1/2 bg-red-600/70 origin-right group-hover:scale-x-0 transition-transform duration-700 ease-in-out" />
@@ -76,7 +76,7 @@ export default function Home() {
           <div onClick={() => navigate("/Musica")}  className="cursor-pointer relative h-40 rounded-2xl overflow-hidden border-2 border-black group">
             <div
               className="absolute inset-0 bg-cover bg-center"
-              style={{ backgroundImage: "url('/musica.png')" }}
+              style={{ backgroundImage: "url('/pages-cover/musica.png')" }}
             />
             <div className="absolute inset-y-0 left-0 w-1/2 bg-green-600/70 origin-left group-hover:scale-x-0 transition-transform duration-500 ease-in-out" />
             <div className="absolute inset-y-0 right-0 w-1/2 bg-green-600/70 origin-right group-hover:scale-x-0 transition-transform duration-700 ease-in-out" />
@@ -89,7 +89,7 @@ export default function Home() {
         <div onClick={() => navigate("/Videojuegos")}  className="cursor-pointer relative h-40 rounded-2xl overflow-hidden border-2 border-black group">
             <div
               className="absolute inset-0 bg-cover bg-center"
-              style={{ backgroundImage: "url('/videojuegos.png')" }}
+              style={{ backgroundImage: "url('/pages-cover/videojuegos.png')" }}
             />
             <div className="absolute inset-y-0 left-0 w-1/2 bg-purple-600/70 origin-left group-hover:scale-x-0 transition-transform duration-500 ease-in-out" />
             <div className="absolute inset-y-0 right-0 w-1/2 bg-purple-600/70 origin-right group-hover:scale-x-0 transition-transform duration-700 ease-in-out" />

@@ -8,7 +8,7 @@ interface MusicCardProps {
 
 export default function MusicCard({ cover, album, artist }: MusicCardProps) {
   return (
-    <div className="w-48 bg-white rounded-lg overflow-hidden shadow-md">
+    <div className="w-48 bg-white rounded-lg overflow-hidden shadow-md group cursor-pointer">
       
       {/* Imagen + Hover */}
       <div className="relative group">

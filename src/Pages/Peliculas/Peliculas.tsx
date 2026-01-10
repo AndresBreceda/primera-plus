@@ -48,7 +48,6 @@ export default function Peliculas() {
             <MovieCard
               key={movie.id}
               title={movie.title}
-              releaseDate={movie.release_date}
               rating={Number(movie.vote_average.toFixed(1))}
               posterUrl={
                 movie.poster_path

@@ -13,37 +13,37 @@ export default function Musica() {
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-y-8 gap-x-2 mb-2 justify-items-center">
           <MusicCard   
-            cover="/coldplay-album-cover.jpg"
+            cover="/music-cover/coldplay-album-cover.jpg"
             album="Ghost Stories"
             artist="Coldplay"/>    
 
           <MusicCard   
-            cover="/album-jao-cover.png"
+            cover="/music-cover/album-jao-cover.png"
             album="Pirata"
             artist="Jao"/> 
 
           <MusicCard   
-            cover="/album-dua-cover.png"
+            cover="/music-cover/album-dua-cover.png"
             album="Future Nostalgia"
             artist="Dua Lipa"/> 
 
           <MusicCard   
-            cover="/album-post-cover.jpg"
+            cover="/music-cover/album-post-cover.jpg"
             album="beerbongs & bentleys"
             artist="Post Malone"/> 
 
           <MusicCard   
-            cover="/album-maroon-cover.jpg"
+            cover="/music-cover/album-maroon-cover.jpg"
             album="Overexposed"
             artist="Maroon 5"/>   
 
           <MusicCard   
-            cover="/album-natalia-cover.jpg"
+            cover="/music-cover/album-natalia-cover.jpg"
             album="Hasta la Raíz"
             artist="Natalia Lafourcade"/>      
 
           <MusicCard   
-            cover="/album-republic-cover.jpg"
+            cover="/music-cover/album-republic-cover.jpg"
             album="waking up"
             artist="One Republic"/>    
         </div>
@@ -53,18 +53,3 @@ export default function Musica() {
     </div>
   );
 }
-
-{/* {movies.map(movie => (
-                    <MovieCard
-                      key={movie.id}
-                      title={movie.title}
-                      releaseDate={movie.release_date}
-                      rating={Number(movie.vote_average.toFixed(1))}
-                      posterUrl={
-                        movie.poster_path
-                          ? `https://image.tmdb.org/t/p/w500${movie.poster_path}`
-                          : undefined
-                      }
-                    />
-                  ))}
-                </div> */}
